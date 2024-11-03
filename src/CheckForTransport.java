@@ -1,5 +1,5 @@
 // Создали интерфейс, который описывает поведение объектов
 
-public interface CherForTransport {
+public interface CheckForTransport {
     void service();
 }

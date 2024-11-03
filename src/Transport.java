@@ -2,7 +2,7 @@
 // В абстрактный класс вынесли свойства общие для всех объектов (модель и кол-во колес),
 // и добавили логику для задания поведение
 
-public abstract class Transport implements CherForTransport {
+public abstract class Transport implements CheckForTransport {
     private String modelName;
     private int wheelsCount;
 
